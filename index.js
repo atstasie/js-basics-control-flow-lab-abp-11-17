@@ -5,10 +5,10 @@ function scuberGreetingForFeet(ride) {
   } if ((ride > 2000) && (ride < 2500)) {
     return 'I will gladly take your thirty bucks.';
   } if (ride > 2500) {
-    return 'No can do.'
+    return 'No can do.';
   }
 }
 
 function ternaryCheckCity(city) {
-  (city === 'NYC') ? 'Ok, sounds good.' : 'No go.');
+ return (city === 'NYC') ? 'Ok, sounds good.' : 'No go.';
 }
